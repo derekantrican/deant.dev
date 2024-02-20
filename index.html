@@ -2,21 +2,6 @@
     <head>
         <script type="text/javascript" src="redirects.js"></script>
         <script type="text/javascript">
-            // function page_redirect(){
-            //     for (let redirect of redirects) {
-            //         if (redirect.pathname == window.location.pathname) {
-            //             window.location = redirect.target;
-            //             return;
-            //         }
-            //     }
-
-            //     window.location = "https://www.derekantrican.com";
-            // }
-
-            // page_redirect();
-        </script>
-
-        <script type="text/javascript">
             // Adapted from https://github.com/rafgraph/spa-github-pages
             (function(l) {
                 if (l.search[1] === '/' ) {
@@ -28,7 +13,14 @@
                     );
                 }
 
-                console.log(window.location.pathname);
+                for (let redirect of redirects) {
+                    if (redirect.pathname == window.location.pathname) {
+                        window.location = redirect.target;
+                        return;
+                    }
+                }
+
+                window.location = "https://www.derekantrican.com";
             }(window.location))
         </script>
     </head>
