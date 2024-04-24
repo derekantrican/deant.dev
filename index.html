@@ -14,7 +14,7 @@
                 }
 
                 for (let redirect of redirects) {
-                    if (redirect.pathname == window.location.pathname) {
+                    if (ciEquals(redirect.pathname, window.location.pathname)) {
                         window.location = redirect.target;
                         return;
                     }
@@ -22,6 +22,13 @@
 
                 window.location = "https://www.derekantrican.com";
             }(window.location))
+
+            // Case-insensitive compare https://stackoverflow.com/a/2140723/2246411
+            function ciEquals(a, b) {
+                return typeof a === 'string' && typeof b === 'string'
+                    ? a.localeCompare(b, undefined, { sensitivity: 'accent' }) === 0
+                    : a === b;
+            }
         </script>
     </head>
     <body>
