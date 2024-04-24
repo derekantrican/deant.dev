@@ -15,4 +15,8 @@ const redirects = [
      pathname: '/camping',
      target: 'https://docs.google.com/document/d/1K1ypKhfrDPNBqTugY-3fFofOGmNTJyeG_Y7gwS72Bzc/edit?usp=drivesdk',
   },
+  {
+     pathname: '/ISThours',
+     target: 'https://i.imgur.com/kA0pZTB.png',
+  },
 ];
