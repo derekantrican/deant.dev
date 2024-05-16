@@ -12,11 +12,15 @@ const redirects = [
     target: 'https://www.eventbrite.com/e/interfaith-iftar-dinner-at-eastside-church-tickets-845508327167',
   },
   {
-     pathname: '/camping',
-     target: 'https://docs.google.com/document/d/1K1ypKhfrDPNBqTugY-3fFofOGmNTJyeG_Y7gwS72Bzc/edit?usp=drivesdk',
+    pathname: '/camping',
+    target: 'https://docs.google.com/document/d/1K1ypKhfrDPNBqTugY-3fFofOGmNTJyeG_Y7gwS72Bzc/edit?usp=drivesdk',
   },
   {
-     pathname: '/ISThours',
-     target: 'https://i.imgur.com/kA0pZTB.png',
+    pathname: '/ISThours',
+    target: 'https://i.imgur.com/kA0pZTB.png',
+  },
+  {
+    pathname: '/renfaire',
+    target: 'https://docs.google.com/document/d/1J7f6J6RUP4XJpZgKsbyIJ9-BuG3qDhFtjoHW4iJGemQ/edit?usp=sharing',
   },
 ];
