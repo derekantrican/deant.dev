@@ -19,4 +19,8 @@ const redirects = [
     pathname: '/renfaire',
     target: 'https://docs.google.com/document/d/1J7f6J6RUP4XJpZgKsbyIJ9-BuG3qDhFtjoHW4iJGemQ/edit?usp=sharing',
   },
+  {
+    pathname: '/potluck',
+    target: 'https://www.eventbrite.com/e/interfaith-holiday-potluck-at-eastside-church-tickets-1049752236197',
+  },
 ];
