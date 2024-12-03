@@ -23,4 +23,8 @@ const redirects = [
     pathname: '/potluck',
     target: 'https://www.eventbrite.com/e/interfaith-holiday-potluck-at-eastside-church-tickets-1049752236197',
   },
+  {
+    pathname: '/giveaway',
+    target: 'https://derekantrican.com/giveaway',
+  },
 ];
