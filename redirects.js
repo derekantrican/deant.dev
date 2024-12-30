@@ -27,4 +27,8 @@ const redirects = [
     pathname: '/giveaway',
     target: 'https://derekantrican.com/giveaway',
   },
+  {
+    pathname: '/khanwedding',
+    target: 'https://docs.google.com/spreadsheets/d/1rVup70HDzcmDAlzjsHEH6uqoSmnGFhomr7iBjC0xiPo/edit?usp=sharing',
+  },
 ];
