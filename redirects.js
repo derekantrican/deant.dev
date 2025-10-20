@@ -21,7 +21,7 @@ const redirects = [
   },
   {
     pathname: '/potluck',
-    target: 'https://www.eventbrite.com/e/interfaith-holiday-potluck-at-eastside-church-tickets-1049752236197',
+    target: 'https://www.eventbrite.com/e/interfaith-friendsgiving-at-eastside-church-tickets-1849045006389?aff=oddtdtcreator',
   },
   {
     pathname: '/giveaway',
