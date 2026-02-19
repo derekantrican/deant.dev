@@ -9,7 +9,7 @@ const redirects = [
   },
   {
     pathname: '/iftar',
-    target: 'https://www.eventbrite.com/e/interfaith-iftar-dinner-at-eastside-church-tickets-1256139028649',
+    target: 'https://www.zeffy.com/en-US/ticketing/annual-interfaith-iftar-dinner-eastside-church',
   },
   {
     pathname: '/camping',
