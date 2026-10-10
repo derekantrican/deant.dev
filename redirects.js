@@ -31,4 +31,8 @@ const redirects = [
     pathname: '/4sqRamadan',
     target: 'https://docs.google.com/forms/d/e/1FAIpQLScsa17fZB7XJ36vz0S-9N_i8c40sF7UtINJ5hWAwvGvEw_7eQ/viewform',
   },
+  {
+    pathname: '/resume',
+    target: 'https://drive.google.com/file/d/1qIKZ7uPKKHvKwrOZCm9s0nfIeY6qF-Cj/view?usp=drivesdk',
+  },
 ];
